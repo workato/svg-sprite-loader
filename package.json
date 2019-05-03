@@ -37,7 +37,7 @@
     "escape-string-regexp": "1.0.5",
     "html-webpack-plugin": "^3.2.0",
     "loader-utils": "^1.1.0",
-    "svg-baker": "github:th0r/svg-baker#984ed1c37c7776b38cdda08f5b05563ee0cfbc39",
+    "svg-baker": "github:th0r/svg-baker#f2e16c8447b55609a1a81e02f9c7ffc504df2151",
     "svg-baker-runtime": "github:th0r/svg-baker-runtime#371b207feab44fb63f96f615c51c83fedc80a9fd",
     "url-slug": "2.0.0"
   },
