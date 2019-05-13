@@ -1,4 +1,4 @@
-import BrowserSprite from 'svg-baker-runtime/src/browser-sprite';
+import BrowserSprite from '@workato/svg-baker-runtime/src/browser-sprite';
 import domready from 'domready';
 
 const spriteNodeId = '__SVG_SPRITE_NODE__';

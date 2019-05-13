@@ -159,7 +159,7 @@ Path will be resolved relative to the current webpack build folder, e.g. `utils/
 Example of sprite with custom mounting target (copypasted from [browser-sprite](https://github.com/kisenka/svg-sprite-loader/blob/master/runtime/browser-sprite.js)):
 
 ```js
-import BrowserSprite from 'svg-baker-runtime/src/browser-sprite';
+import BrowserSprite from '@workato/svg-baker-runtime/src/browser-sprite';
 import domready from 'domready';
 
 const sprite = new BrowserSprite();

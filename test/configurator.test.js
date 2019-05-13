@@ -39,7 +39,7 @@ describe('configurator', () => {
 
     config = configure({ context, target: 'node' });
     strictEqual(config.spriteModule, require.resolve('../runtime/sprite.build'));
-    strictEqual(config.symbolModule, require.resolve('svg-baker-runtime/symbol'));
+    strictEqual(config.symbolModule, require.resolve('@workato/svg-baker-runtime/symbol'));
   });
 
   it('should properly autodetect extract mode', () => {

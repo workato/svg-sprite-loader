@@ -12,7 +12,6 @@ const envToSelect = envFromCli
   : envs.find(e => e.name === 'webpack-3');
 
 exec('yarn');
-exec(`node ${projectDir}/node_modules/husky/bin/install`);
 
 envs.forEach((env) => {
   cd(env.path);

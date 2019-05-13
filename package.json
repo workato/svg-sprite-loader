@@ -1,5 +1,5 @@
 {
-  "name": "svg-sprite-loader",
+  "name": "@workato/svg-sprite-loader",
   "version": "4.1.6",
   "description": "Webpack loader for creating SVG sprites",
   "keywords": [
@@ -31,14 +31,14 @@
     "node": ">=6"
   },
   "dependencies": {
+    "@workato/svg-baker": "^1.4.1",
+    "@workato/svg-baker-runtime": "^1.4.2",
     "bluebird": "^3.5.0",
     "deepmerge": "1.3.2",
     "domready": "1.0.8",
     "escape-string-regexp": "1.0.5",
     "html-webpack-plugin": "^3.2.0",
     "loader-utils": "^1.1.0",
-    "svg-baker": "github:th0r/svg-baker#f2e16c8447b55609a1a81e02f9c7ffc504df2151",
-    "svg-baker-runtime": "github:th0r/svg-baker-runtime#371b207feab44fb63f96f615c51c83fedc80a9fd",
     "url-slug": "2.0.0"
   },
   "devDependencies": {
@@ -60,7 +60,6 @@
     "file-loader": "^3.0.1",
     "glob": "7.1.1",
     "html-loader": "^0.5.5",
-    "husky": "^0.13.3",
     "istanbul": "^0.4.5",
     "memory-fs": "^0.4.1",
     "minimist": "^1.2.0",
@@ -92,7 +91,6 @@
     }
   },
   "scripts": {
-    "bootstrap": "node scripts/bootstrap",
     "build:examples": "yarn env webpack-3 && yarn run build:runtime && node scripts/build-examples-dll && node scripts/build-examples",
     "build:runtime": "node scripts/build-runtime.js",
     "commit": "git-cz",

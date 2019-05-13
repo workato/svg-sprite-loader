@@ -297,10 +297,14 @@ Sprite.prototype.destroy = function destroy () {
 var SpriteSymbol = function SpriteSymbol(ref) {
   var id = ref.id;
   var viewBox = ref.viewBox;
+  var width = ref.width;
+  var height = ref.height;
   var content = ref.content;
 
   this.id = id;
   this.viewBox = viewBox;
+  this.width = width;
+  this.height = height;
   this.content = content;
 };
 
@@ -321,7 +325,7 @@ SpriteSymbol.prototype.toString = function toString () {
 SpriteSymbol.prototype.destroy = function destroy () {
     var this$1 = this;
 
-  ['id', 'viewBox', 'content'].forEach(function (prop) { return delete this$1[prop]; });
+  ['id', 'viewBox', 'width', 'height', 'content'].forEach(function (prop) { return delete this$1[prop]; });
 };
 
 /**
