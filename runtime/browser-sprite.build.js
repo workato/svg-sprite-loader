@@ -209,7 +209,8 @@ var xlink$1 = namespaces_1.xlink;
 
 var defaultConfig = {
   attrs: ( obj = {
-    style: ['position: absolute', 'width: 0', 'height: 0'].join('; ')
+    style: 'display: none',
+    'aria-hidden': 'true'
   }, obj[svg$1.name] = svg$1.uri, obj[xlink$1.name] = xlink$1.uri, obj )
 };
 var obj;
@@ -768,7 +769,7 @@ var BrowserSprite = (function (Sprite$$1) {
     }
 
     if (typeof cfg.locationChangeAngularEmitter === 'undefined') {
-      config.locationChangeAngularEmitter = 'angular' in window;
+        config.locationChangeAngularEmitter = typeof window.angular !== 'undefined';
     }
 
     if (typeof cfg.moveGradientsOutsideSymbol === 'undefined') {
