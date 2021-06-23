@@ -20,3 +20,4 @@ coverage
 .idea
 .current-env
 .nyc_output
+.vscode/launch.json

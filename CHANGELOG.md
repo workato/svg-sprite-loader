@@ -2,6 +2,134 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="6.0.9"></a>
+## [6.0.9](https://github.com/JetBrains/svg-sprite-loader/compare/v6.0.8...v6.0.9) (2021-06-23)
+
+
+### Bug Fixes
+
+* **utils:** force get-matched-rule-4 to use nearest webpack installation ([#463](https://github.com/JetBrains/svg-sprite-loader/issues/463)) ([dcaa65a](https://github.com/JetBrains/svg-sprite-loader/commit/dcaa65a))
+
+
+
+<a name="6.0.8"></a>
+## [6.0.8](https://github.com/JetBrains/svg-sprite-loader/compare/v6.0.7...v6.0.8) (2021-06-21)
+
+
+### Bug Fixes
+
+* **utils:** fix: some options had no effect with webpack5 ([#460](https://github.com/JetBrains/svg-sprite-loader/issues/460)) ([839f878](https://github.com/JetBrains/svg-sprite-loader/commit/839f878)), closes [#446](https://github.com/JetBrains/svg-sprite-loader/issues/446)
+
+
+
+<a name="6.0.7"></a>
+## [6.0.7](https://github.com/JetBrains/svg-sprite-loader/compare/v6.0.6...v6.0.7) (2021-05-28)
+
+
+### Bug Fixes
+
+* **utils:** Account for rule property "generator" ([#454](https://github.com/JetBrains/svg-sprite-loader/issues/454)) ([9fc86f1](https://github.com/JetBrains/svg-sprite-loader/commit/9fc86f1)), closes [#428](https://github.com/JetBrains/svg-sprite-loader/issues/428) [vuejs/vue-loader#1753](https://github.com/vuejs/vue-loader/issues/1753)
+
+
+
+<a name="6.0.6"></a>
+## [6.0.6](https://github.com/JetBrains/svg-sprite-loader/compare/v6.0.5...v6.0.6) (2021-04-23)
+
+
+### Bug Fixes
+
+* **utils:** use webpack object version if package can't be required ([f4b82c2](https://github.com/JetBrains/svg-sprite-loader/commit/f4b82c2))
+
+
+
+<a name="6.0.5"></a>
+## [6.0.5](https://github.com/JetBrains/svg-sprite-loader/compare/v6.0.4...v6.0.5) (2021-04-10)
+
+
+### Bug Fixes
+
+* **utils:** use moduleGraph in is-module-should-be-extracted.js ([6099812](https://github.com/JetBrains/svg-sprite-loader/commit/6099812))
+
+
+
+<a name="6.0.4"></a>
+## [6.0.4](https://github.com/JetBrains/svg-sprite-loader/compare/v6.0.3...v6.0.4) (2021-04-10)
+
+
+### Bug Fixes
+
+* **utils:** NormalModule for webpack 5 ([00886bc](https://github.com/JetBrains/svg-sprite-loader/commit/00886bc))
+
+
+
+<a name="6.0.3"></a>
+## [6.0.3](https://github.com/JetBrains/svg-sprite-loader/compare/v6.0.2...v6.0.3) (2021-04-10)
+
+
+### Bug Fixes
+
+* **utils:** fix 'Properties descriptionData are unknown' with webpack5 ([5a4fc6a](https://github.com/JetBrains/svg-sprite-loader/commit/5a4fc6a))
+* **utils:** use moduleGraph and chunkGraph if possible ([9e25d18](https://github.com/JetBrains/svg-sprite-loader/commit/9e25d18))
+
+
+
+<a name="6.0.2"></a>
+## [6.0.2](https://github.com/JetBrains/svg-sprite-loader/compare/v6.0.1...v6.0.2) (2021-03-18)
+
+
+
+<a name="6.0.1"></a>
+## [6.0.1](https://github.com/JetBrains/svg-sprite-loader/compare/v6.0.0...v6.0.1) (2021-03-18)
+
+
+
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/JetBrains/svg-sprite-loader/compare/v5.2.1...v6.0.0) (2021-03-13)
+
+
+### Bug Fixes
+
+* **additional-assets:** adds missing method ([8db9c4d](https://github.com/JetBrains/svg-sprite-loader/commit/8db9c4d))
+* **loader:** get rid of webpack--version ([54a0c6b](https://github.com/JetBrains/svg-sprite-loader/commit/54a0c6b)), closes [#437](https://github.com/JetBrains/svg-sprite-loader/issues/437) [#417](https://github.com/JetBrains/svg-sprite-loader/issues/417)
+
+
+### BREAKING CHANGES
+
+* **loader:** delete get-webpack-version.js
+
+
+
+<a name="5.2.1"></a>
+## [5.2.1](https://github.com/JetBrains/svg-sprite-loader/compare/v5.2.0...v5.2.1) (2020-12-14)
+
+
+
+<a name="5.2.0"></a>
+# [5.2.0](https://github.com/JetBrains/svg-sprite-loader/compare/v5.1.1...v5.2.0) (2020-12-14)
+
+
+### Features
+
+* update-dependency ([d93c5cf](https://github.com/JetBrains/svg-sprite-loader/commit/d93c5cf))
+
+
+
+<a name="5.1.1"></a>
+## [5.1.1](https://github.com/JetBrains/svg-sprite-loader/compare/v5.1.0...v5.1.1) (2020-12-05)
+
+
+
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/JetBrains/svg-sprite-loader/compare/v5.0.0...v5.1.0) (2020-12-05)
+
+
+### Features
+
+* add support for webpack5 ([b34b2b2](https://github.com/JetBrains/svg-sprite-loader/commit/b34b2b2))
+* nodejs update ([00f4fc2](https://github.com/JetBrains/svg-sprite-loader/commit/00f4fc2))
+
+
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/JetBrains/svg-sprite-loader/compare/v4.3.0...v5.0.0) (2020-05-11)
 
