@@ -31,7 +31,7 @@
     "node": ">=6"
   },
   "dependencies": {
-    "@workato/svg-baker": "1.7.0",
+    "@workato/svg-baker": "1.7.1",
     "@workato/svg-baker-runtime": "1.4.6-fix2",
     "bluebird": "^3.5.0",
     "deepmerge": "1.3.2",
