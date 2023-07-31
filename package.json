@@ -1,6 +1,6 @@
 {
   "name": "@workato/svg-sprite-loader",
-  "version": "6.0.10",
+  "version": "6.1.0",
   "description": "Webpack loader for creating SVG sprites",
   "keywords": [
     "svg",
@@ -22,7 +22,6 @@
   "files": [
     "examples/**",
     "lib/**",
-    "runtime/*.js",
     "plugin.js",
     "README.md",
     "LICENSE"

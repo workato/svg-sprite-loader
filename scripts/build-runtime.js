@@ -11,11 +11,6 @@ const runtimeDir = path.resolve(root, 'runtime');
 
 const entries = [
   {
-    src: `${runtimeDir}/sprite.js`,
-    dest: `${runtimeDir}/sprite.build.js`,
-    moduleName: 'Sprite'
-  },
-  {
     src: `${runtimeDir}/browser-sprite.js`,
     dest: `${runtimeDir}/browser-sprite.build.js`,
     moduleName: 'BrowserSprite'
