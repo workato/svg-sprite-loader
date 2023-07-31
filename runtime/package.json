@@ -1,0 +1,10 @@
+{
+  "name": "@workato/svg-sprite-loader-runtime",
+  "version": "6.1.0",
+  "main": "browser-sprite.build.js",
+  "types": "types.d.ts",
+  "files": [
+    "browser-sprite.build.js",
+    "types.d.ts"
+  ]
+}
