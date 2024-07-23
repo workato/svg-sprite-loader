@@ -3,7 +3,7 @@ const merge = require('deepmerge');
 const baseConfig = require('../base-webpack.config');
 
 const babelOptions = {
-  presets: ['react', 'es2015'],
+  presets: ['@babel/preset-react', '@babel/preset-env'],
   plugins: ['transform-object-rest-spread']
 };
 
@@ -31,7 +31,7 @@ const config = merge(baseConfig, {
             options: babelOptions
           },
           {
-            loader: 'svg-sprite-loader',
+            loader: '@workato/svg-sprite-loader',
             options: {
               runtimeGenerator: require.resolve('./svg-to-icon-component-runtime-generator'),
               runtimeOptions: {
@@ -39,7 +39,7 @@ const config = merge(baseConfig, {
               }
             }
           }
-        ],
+        ]
       }
     ]
   }

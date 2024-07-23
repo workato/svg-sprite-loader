@@ -24,7 +24,7 @@ module.exports = merge(baseConfig, {
           // 'svg-sprite-loader',
 
           {
-              loader: 'svg-sprite-loader',
+              loader: '@workato/svg-sprite-loader',
               options: { extract: true, spriteFilename: 'dll.svg' }
           },
           'svgo-loader'

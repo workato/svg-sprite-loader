@@ -16,7 +16,7 @@ module.exports = merge(baseConfig, {
       {
         test: /\.svg$/,
         use: [
-          'svg-sprite-loader',
+          '@workato/svg-sprite-loader',
           'svgo-loader'
         ]
       }

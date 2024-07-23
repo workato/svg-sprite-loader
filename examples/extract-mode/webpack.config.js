@@ -21,7 +21,7 @@ const config = merge(baseConfig, {
     rules: [
       {
         test: /\.svg$/,
-        loader: 'svg-sprite-loader',
+        loader: '@workato/svg-sprite-loader',
         options: {
           extract: true,
           spriteFilename: 'sprite-[hash:6].svg'
