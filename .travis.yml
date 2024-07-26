@@ -19,6 +19,3 @@ script:
  - yarn test:webpack-2
  - yarn test:webpack-3
  - yarn test:webpack-4
-
-after_success:
- - yarn upload-coverage
