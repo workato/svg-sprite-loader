@@ -72,7 +72,6 @@
     "standard-version": "^9.5.0",
     "svgo": "^3.3.2",
     "svgo-loader": "^3.0.3",
-    "wallaby-webpack": "^3.9.16",
     "webpack-cli": "^5.1.4",
     "webpack-toolkit": "^1.0.0"
   },
@@ -87,8 +86,6 @@
   "scripts": {
     "build:examples": "yarn env webpack-3 && yarn run build:runtime && node scripts/build-examples-dll && node scripts/build-examples",
     "build:runtime": "node scripts/build-runtime.js",
-    "commit": "git-cz",
-    "commitmsg": "validate-commit-msg",
     "env": "node scripts/select-env",
     "lint": "eslint --quiet lib runtime scripts test",
     "precommit": "yarn lint",
