@@ -76,7 +76,7 @@ describe('utils', () => {
       options: {
         module: {
           rules: [
-            { test: /\.svg$/, loader: 'svg-sprite-loader', options: { extra: true } },
+            { test: /\.svg$/, loader: '@workato/svg-sprite-loader', options: { extra: true } },
             { test: /\.svg$/, loader: 'another-loader' },
             { test: /\.foo$/, loader: 'foo-loader' }
           ]
@@ -91,7 +91,7 @@ describe('utils', () => {
             {
               test: /\.svg$/,
               use: [
-                { loader: 'svg-sprite-loader', options: { extra: true, a: 1 } },
+                { loader: '@workato/svg-sprite-loader', options: { extra: true, a: 1 } },
                 'svgo-loader'
               ]
             },
